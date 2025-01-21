@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+.s1{
+    background-color: rgb(47, 105, 162);
+}
+div{
+    width: 100%;
+    height: 8vh;
+}
+
+.clearfix{
+    clear: both;
+    display: table;
+}
+.c1{
+    width: 14%;
+    height: 100%;
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: medium;
+    border-right: 2px solid rgb(81, 133, 165);
+}
+.c2{
+    width: 38%;
+    height: 100%;
+    float: left;
+    padding: 15px 30px;
+    font-size: medium;
+    color: whitesmoke;
+}
+.c3{
+    width: 38%;
+    height: 100%;
+    float: left;
+    padding: 15px 30px;
+    font-size: medium;
+    color: whitesmoke;
+    text-align: end; 
+    border-right: 2px solid rgb(81, 133, 165);
+}
+.c4{
+    width: 10%;
+    height: 100%;
+    float: left;
+    padding: 15px ;
+    font-size: medium;
+    color: whitesmoke;
+    text-align: center; 
+}
+header{
+    width: 100%;
+    height: 18vh;
+
+}
+.c5{
+    width: 15%;
+    height: 18vh;
+    float: left;
+    
+}
+.c5 img{
+    width: 70%;
+    height: 100%;
+    padding: 10px 0px 0px 50px;
+}
+.c6{
+    width: 85%;
+    height: 18vh;
+    float: left;
+    
+}
+.c6 button,select{
+    
+    border: 0px;
+    background-color: transparent;
+    padding: 0px 20px ;
+}
+#id1{
+    
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(248, 127, 83);
+}
+
+
+.bg1{
+    background-image: url(images/header\ backgroung\ image.png);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bg2{
+    width: 100%;
+    height: 88vh;
+    color: white;
+    background-image: url(images/bg\ 2.png);
+    
+   
+}
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 300px ;
+    
+}
+.bg2 h1{
+    width: 50%;
+    font-size: 55px;
+}
+.bg2 p{
+    width: 70%;
+    font-size: 24px;
+}
+.bg2 button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: rgba(167, 145, 35, 0.884);
+    color: white;
+    margin-top: 70px;
+}
+.s2{
+    width: 100%;
+    height: 80vh;
+    
+}
+.c7{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url(images/h9_about_shape01.png);
+
+}
+.c7 img{
+    width: 100%;
+    height: 80%;
+    padding: 15px;
+    
+}
+.c8{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 30px;
+    background-image: url(images/h9_about_shape02.png);
+}
+.c8 h4{
+    color: rgb(149, 149, 251);
+}
+.c8 h2{
+    font-size: 34px;
+    color: rgb(55, 54, 54);
+}
+.c8 p{
+    font-size: 20px;
+}
+.c8 h3{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.s3{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    background-image: url(images/h6_services_shape01.png); 
+}
+.flex3 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: 50px;
+}
+.s3 h5{
+    background-color: rgb(181, 18, 231);
+    color: white;
+    margin: 0px 600px;
+    border-radius: 20px;
+    padding: 10px 0px;    
+    font-size: 20px;
+}
+.s3 h1{
+    font-size: 44px;
+}
+.s3 p{
+    font-size: 22px;
+}
+.s4{
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/h6_services_shape02.png);                       
+    
+}
+
+.s4 div{
+    width: 20%;
+    height: 80%;
+    background-image: url(images/h8_services_item_shape.svg);
+    float: left;
+    margin: 35px;
+    padding: 30px;
+    border: 3px solid rgba(241, 232, 232, 0.831);
+    border-radius: 30px;
+
+}
+.s4 img{
+    width: 70px;
+    height:70px;
+    background-color: rgb(12, 149, 235);
+    padding: 10px;
+    border-radius: 10px;
+}
+.s4 button{
+    padding: 10px 20px;
+    color: rgb(96, 96, 244);
+    background-color: rgba(97, 201, 243, 0.849) ;
+    border: 0px;
+    border-radius: 10px;
+    
+}
+.button-webdesining {
+    margin-top: 18px;
+}
+.button-mobileappdevelopment{
+    margin-top: 38px; 
+}
+.button-webdevelopment{
+    margin-top: 38px;
+}
+.button-DigitalMarketing{
+    margin-top: 40px;
+}
+.s5{
+    width: 100%;
+    height: 100vh;
+    padding: 40px 120px ; 
+}
+.s5 div{
+    width: 25%;
+    height: 45vh;
+    background-color: whitesmoke;
+    float: left;
+    
+}
+.design{
+    padding: 30px;
+}
+.s5 img {
+    width: 100%;
+    height: 100%;
+}
+.s5  p{
+    
+    font-size: 20px;
+}
+
+.s6{
+    width: 100%;
+    height: 40vh;
+    background-color: #104eec;
+    color: white;
+    padding: 80px 30px;
+    font-size: 20px ;
+    display: flex
+}
+.flex4{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+
